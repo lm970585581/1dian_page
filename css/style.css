@@ -1,0 +1,489 @@
+*{
+   margin: 0px;
+    padding:0px;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+html,body{
+    font: 12px/1.5 "微软雅黑";
+    color: #646464;
+}
+.wrap{
+    width: 1200px;
+    margin: 0px auto;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.clear{
+    overflow: hidden;
+    clear: both;
+    height: 0;
+}
+
+
+/*顶层*/
+.header-box{
+    height: 34px;
+    width: 100%;
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #f2f2f2;
+}
+.header-box .wrap .login{
+    height: 34px;
+    line-height: 34px;
+}
+.header-box .wrap .login a{
+    color: #0066cc;
+}
+.header-box .wrap .first>li>a:hover,.header-box .wrap .login a:hover,.logo-box .wrap .search p a:hover{
+    color: #ff3c3c;
+}
+.header-box .wrap .first>li{
+    float: left;
+    height: 34px;
+    line-height: 34px;
+    position: relative;
+}
+.header-box .wrap .first .line{
+    float: left;
+    font-size: 12px;
+    height: 34px;
+    line-height: 34px;
+    color: #e1e1e1;
+}
+.header-box .wrap .first>li>a{
+    color: #646464;
+    padding: 0 13px 0 5px;
+    margin: 0 5px;
+}
+.header-box .wrap .first>.about>a{
+    padding: 0 5px;
+    margin: 0 5px;
+}
+.header-box .wrap .first>.btn>a{
+    background: url("../img/indexhead_sprite.png") no-repeat right -257px;
+}
+.header-box .wrap .first>li .tel{
+    width: 16px;
+    height: 34px;
+    background: url("../img/indexhead_sprite.png") no-repeat -282px -221px;
+}
+.header-box .wrap .first>.btn-tel>a{
+    padding-left: 2px;
+}
+.header-box .wrap .first>li ul li{
+    line-height: 23px;
+    text-indent: 10px;
+}
+.header-box .wrap .serve ul li:hover{
+    background-color: #f2f2f2;
+}
+.header-box .wrap .serve ul li a{
+    color: black;
+}
+.header-box .wrap .serve ul{
+    border:1px solid #f2f2f2;
+    background-color: white;
+    border-top: 0px;
+    width: 100%;
+    position: absolute;
+    left:-1px;
+    z-index: 999;
+}
+.header-box .wrap ul li.serve{
+    border:1px solid #f2f2f2;
+    background-color: white;
+}
+/*顶层end*/
+
+/*搜索栏*/
+.logo-box .wrap{
+    height: 132px;
+    position: relative;
+}
+.logo-box .wrap img{
+    position: absolute;
+    top: 30px;
+    left: 0px;
+}
+.logo-box .wrap .search{
+    position: absolute;
+    top: 58px;
+    left: 243px;
+}
+.logo-box .wrap .search .border{
+    border: 2px #ff3c3c solid;
+}
+.logo-box .wrap .search .border a{
+    display: inline-block;
+    height: 29px;
+    line-height: 29px;
+    color: white;
+    width: 100px;
+    text-align: center;
+    background-color: #ff3c3c;
+    font-size: 14px;
+}
+.logo-box .wrap .search span{
+    display: inline-block;
+    width: 80px;
+    height: 27px;
+    line-height: 27px;
+    font-size: 15px;
+    text-align: center;
+    background-color: #f8f8f8;
+    border-right: 1px #d7d7d7 solid;
+}
+.logo-box .wrap .search .border input[type="text"]{
+    height: 29px;
+    width: 341px;
+    border: 0px;
+}
+.logo-box .wrap .search p a{
+    display: inline-block;
+    color: #737373;
+    margin: 5px 5px;
+}
+/*搜索栏结束*/
+
+/*导航栏开始*/
+.nav-box .wrap .all-nav .nav>li.all{
+    background: url("../img/indexhead_sprite.png") no-repeat -91px -1203px;
+}
+.nav-box .wrap .all-nav .nav>li{
+    float: left;
+    margin: 0 15px;
+    line-height:36px ;
+    height: 36px;
+}
+.nav-box .wrap .all-nav .nav>li>a{
+    font-size: 14px;
+    font-weight: bold;
+    color: #333333;
+}
+.nav-box .wrap .all-nav .nav>li.all {
+    width: 220px;
+    height: 36px;
+    background-color: #ff3c3c;
+    text-align: center;
+    color: white;
+    margin-left: 0;
+}
+.nav-box .wrap .all-nav .nav>li.first a,.nav-box .wrap .all-nav .nav>li>a:hover{
+    color: #ff3c3c;
+}
+.nav-box .wrap .all-nav .nav>li.all a:hover{
+    color: white;
+}
+.nav-box{
+    margin-top: 20px;
+    border-bottom: 2px solid #fd3f49;
+}
+.nav-box .wrap .all-nav .nav .all .child-nav li{
+    padding-left: 40px;
+    text-align: left;
+    height: 33px;
+    line-height: 33px;
+    background-color: #c23131;
+    position: relative;
+    z-index: 999;
+}
+.nav-box .wrap .all-nav .nav .all .child-nav li:hover{
+    background-color: #841904;
+}
+.nav-box .wrap .all-nav .nav .all a{
+    color: white;
+}
+.nav-box .wrap .all-nav .nav .all .child-nav li span{
+    font-size: 15px;
+    float: right;
+    padding-right: 10px;
+}
+.nav-1{
+    background: url("../img/nav.png") no-repeat 15px 6px;
+}
+.nav-2{
+    background: url("../img/nav.png") no-repeat 15px -39px;
+}
+.nav-3{
+    background: url("../img/nav.png") no-repeat 15px -84px;
+}
+.nav-4{
+    background: url("../img/nav.png") no-repeat 15px -126px;
+}
+.nav-5{
+    background: url("../img/nav.png") no-repeat 15px -164px;
+}
+.nav-6{
+    background: url("../img/nav.png") no-repeat 15px -205px;
+}
+.nav-7{
+    background: url("../img/nav.png") no-repeat 15px -244px;
+}
+.nav-8{
+    background: url("../img/nav.png") no-repeat 15px -283px;
+}
+.nav-9{
+    background: url("../img/nav.png") no-repeat 15px -323px;
+}
+.nav-10{
+    background: url("../img/nav.png") no-repeat 15px -362px;
+}
+.nav-11{
+    background: url("../img/nav.png") no-repeat 15px -397px;
+}
+.nav-12{
+    background: url("../img/nav.png") no-repeat 15px -437px;
+}
+/*导航栏结束*/
+
+/*右侧banner*/
+.box a,.show a{
+    color: #737373;
+}
+.box .wrap{
+    height: 395px;
+    text-align: center;
+    background: url("../img/banner.jpg") no-repeat center;
+}
+.box{
+    background-color: #e82a1e;
+    position: relative;
+}
+.box .wrap .nav-square li{
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    background-color:rgb(204,204,204) ;
+    margin: 0 5px;
+    cursor: pointer;
+}
+.box .wrap .nav-square li.first{
+    background-color: #ff3c3c;
+}
+.box .wrap .nav-square{
+    position: absolute;
+    bottom: 5px;
+    left: 600px;
+    z-index: 999;
+}
+.box .wrap .nav{
+    width: 240px;
+    height: 395px;
+    background-color: white;
+}
+.box .wrap .nav .top{
+    height: 105px;
+    border-bottom: 1px #eeeeee solid;
+    padding-left: 19px;
+}
+.box .wrap .nav .top a{
+    margin: 18px 7px;
+}
+.box a:hover{
+    color: #ff3c3c;
+}
+.box .wrap .nav .middle{
+    height: 85px;
+    border-bottom: 1px #eeeeee solid;
+    padding-left: 15px;
+}
+.box .wrap .nav .middle p{
+    text-align: left;
+    line-height: 25px;
+}
+.box .wrap .nav .bottom a{
+    display: inline-block;
+    width: 78px;
+    background-color: #f7f7f7;
+    border: 1px #eeeeee solid;
+    height: 30px;
+    line-height: 30px;
+}
+.box .wrap .nav .bottom a.first{
+    background-color: white;
+    border-bottom: 0;
+    color: #ff3c3c;
+}
+.box .wrap .nav .bottom table{
+    margin-left: 27px;
+    margin-top: 32px;
+}
+.box .wrap .nav .bottom .tab-2-1 input{
+    width: 117px;
+    height: 20px;
+}
+.box .wrap .nav .bottom .tab-2-2 select{
+    width: 122px;
+    height: 20px;
+}
+.box .wrap .nav .bottom .tab-2-3{
+    color: #ff3c3c;
+}
+.box .wrap .nav .bottom .tab-1{
+    text-align: right;
+}
+.box .wrap .nav .bottom .tab-2{
+    text-align: left;
+    padding: 5px 0;
+}
+.box .wrap .nav .bottom input[type="button"]{
+    color: white;
+    background-color: #ff5252;
+    width: 78px;
+    height: 28px;
+}
+/*end*/
+
+/*商品展示*/
+/*第一部分*/
+.show{
+    background-color: #f9f9f9;
+    padding: 35px 0;
+}
+.show .wrap .content1,.show .wrap .content2{
+    background-color: white;
+}
+.show .hib1 .title1{
+    border-bottom: 2px #ff3c3c solid;
+}
+.show .hib1 .title1 .title1-left{
+    font-size: 16px;
+    padding-bottom: 5px;
+    text-indent: 5px;
+    color: #ff3c3c;
+}
+.show .hib1 .title1 .right .title1-right,.show .hib2 .title2 .right .title2-right{
+ margin: 0 5px;
+}
+.content1 ul,.content2 ul{width: 188px; }
+.content1 ul li a,.content2 ul li a{
+    width:90px;
+    display: inline-block;
+    text-align: left;
+    height: 34px;
+    line-height: 34px;
+    border-bottom:1px #e6e6e6 dashed;
+    text-indent: 1em;}
+.content1 .a,.content1 .c,.content1 .d,.content1 .e{
+    width:217px;
+    height: 360px;
+    text-align: center }
+.content2 h3,.content2 h4,.content1 h3,.content1 h4{
+    text-align: center
+    ;height: 30px;
+    line-height: 30px}
+.content1 .c .c-1,.content2 .d .d-1{
+    display: block;
+    border-bottom: 1px #e6e6e6 solid;
+    border-right: 1px #e6e6e6 solid;
+}
+.content1 .c .c-2,.content2 .d .d-2{
+    display: block;
+    border-right: 1px #e6e6e6 solid;
+}
+.content1 .d .d-1,.content2 .a .a-2,.content2 .b,.content2 .c{
+    display: block;
+    border-right: 1px #e6e6e6 solid;
+}
+.content1 .e .e-1,.content2 .a .a-1,.content2 .c .c-1,.content2 .e .e-1,.content2 .c .c-2{
+    display: block;
+    border-bottom: 1px #e6e6e6 solid;
+}
+.show h4{
+    font-size: 12px;
+    color:#999;
+    font-weight: normal;
+}
+.show .wrap .hib1 .content1 .a h3{
+    color: #ff2832;
+}
+.show .title1 a:hover,.show .content1 .a a:hover,.show .title2 a:hover,.show .content2 .a a:hover{
+    color: #ff3c3c;
+}
+.show .wrap .hib1 .content1 .b{
+    position: relative;
+}
+.show .wrap .hib1 .content1 .b ul{
+    position: absolute;
+    bottom: 16px;
+    width: 100%;
+    text-align: center;
+    margin: 5px 5px;
+}
+.show .wrap .hib1 .content1 .b ul li{
+    display: inline-block;
+    width: 31px;
+    height: 7px;
+    background-color: #cccccc;
+    cursor: pointer;
+}
+.show .wrap .hib1 .content1 .b ul li.first{
+    background-color: red;
+}
+/*第二部分*/
+.show .hib2 .title2{
+    margin-top: 20px;
+}
+.show .hib2 .title2{
+    border-bottom: 2px  #a7d22d solid;
+}
+.show .hib2 .title2 .title2-left{
+    font-size: 16px;
+    padding-bottom: 5px;
+    text-indent: 5px;
+    color: #a7d22d;
+}
+.content2 .a,.content2 .c,.content2 .d,.content2 .e{
+    width:215px;
+    height: 540px;
+    text-align: center }
+.show .wrap .hib2 .content2 .a h3{
+    color: #a7d22d;
+}
+.content2 .b h3.fram{
+    background-color: #ff2832;
+    color: white;
+    font-size: 14px;
+    padding:0px 12px;
+}
+.content2 .b .b-1{
+    margin-top: 35px;
+    margin-left: 40px;
+}
+.show .wrap .hib2 .content2 .b{
+    position: relative;
+}
+.show .wrap .hib2 .content2 .b ul{
+    position: absolute;
+    bottom: 185px;
+    width: 100%;
+    text-align: center;
+    margin: 5px 5px;
+}
+.show .wrap .hib2 .content2 .b ul li{
+    display: inline-block;
+    width: 31px;
+    height: 7px;
+    background-color: #cccccc;
+    cursor: pointer;
+}
+.show .wrap .hib2 .content2 .b ul li.first{
+    background-color: red;
+}
+/*end*/
+
+/*底部菜单*/
+.box5{padding-top: 20px}
+.box5 .wrap>div{margin: 8px 0;text-align: center}
+.box5 .wrap a,.box5 .wrap .bottom{margin: 5px 20px;color: #9c918c }
+.box5 .wrap a:hover{color:#ff2832;text-decoration: underline }
+/*end*/
